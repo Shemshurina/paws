@@ -1,0 +1,107 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="styles.css">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+<div class = "container header">
+	<div>
+		<h1 class="logo">Paws</h1>
+	</div>
+	<nav>
+	<ul class="menu_items">
+		<li><a class="menu_item home_page" href="index.html" accesskey="1" title="">Homepage</a></li>
+		<li><a class="menu_item" href="dogs.html" accesskey="2" title="">Dogs</a></li>
+		<li><a class="menu_item" href="cats.html" accesskey="3" title="">Cats</a></li>
+		<li><a class="menu_item" href="rabbits.html" accesskey="4" title="">Rabbits</a></li>
+		<li><a class="menu_item active" href="contact_us.html" accesskey="5" title="">Contact Us</a></li>
+	</ul>
+	</nav>
+</div>
+
+
+<div class = "container">
+	<h2 class="form_intro">Здесь вы можете оставить свой отзыв о сайте</h2>
+</div>
+
+<div>
+	<div>
+	<img src="form_img.jpg" height="300px" class="img" title="Dogge" alt="Image">
+	</div>
+	<form class="form" method="post" action="http://g06u33.nn2000.info/cgi-bin/form_action.py" target="_self">
+	<fieldset>
+	<legend>Контактная информация</legend>
+		<div>
+			<br>
+			Имя:
+			<input type="text" name="name" size="11">
+		</div>
+		<div>
+			<br>
+			Фамилия:
+			<input type="text" name="surname">
+		</div>
+		<div>
+			<br>
+			Мобильный телефон:
+			<input type="text" name="phone_number">
+		</div>
+		<div>
+			<br>
+			E-mail:
+			<input type="email" name="email" placeholder="Укажите e-mail">
+		</div>
+		<div>
+			<br>
+			Дата:
+			<input type="date" name="date">
+		</div>
+	</fieldset>
+	<fieldset>
+	<legend>Отзыв</legend>
+		<div>
+			<br>
+			Какая страничка понравилась больше всего:
+			<select name="best">
+			<option value="Dogs">Dogs</option> 
+			<option value="Cats">Cats</option> 
+			<option value="Rabbits">Rabbits</option> 
+			</select> 
+		</div>
+		<div>
+			<br>
+			Оставьте отзыв:
+			<TEXTAREA name="textarea" rows=4 cols=40>:)</TEXTAREA>
+		</div>
+			<br>
+	</fieldset>
+		<div>
+			Название файла:
+			<input type="Техт" name="000_file_name" value="paws.txt">
+			<br>
+			Тип записи в файл:
+			<select name="010_mode">
+			<OPTION value="a">a - дозаписать в файл</OPTION> 
+			<OPTION value="w">w - очисить файл и записать в файл</OPTION> 
+			</select>
+		</div>
+			<br>
+			<div>
+				<input type="Reset" name="Reset" value="Обновить" formtarget="_blank">
+				<input type="Submit" name="submit" value="Отправить" formtarget="_blank">
+			</div>
+	</form>
+</div>
+
+<div class = "results">
+	<a class = "results_text" target="_blank" href="http://g06u33.nn2000.info/tmp/paws.txt">Результаты</a>
+</div>
+
+</body>
+</html>

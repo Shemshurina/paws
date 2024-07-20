@@ -1,0 +1,286 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #2b2b2b;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ol
+{
+	margin-left: 50px;
+	padding: 0;
+	text-align: left;
+	padding: 10px;
+	font-family: "Consolas";
+	margin-left: 10em;
+	margin-right: 10em;
+	color: #FFF;
+	font-size: 1em;
+}
+
+
+a
+{
+text-decoration: none; 
+color: white;
+}
+a:hover {
+background: linear-gradient(to left, #2b2b2b, steelblue 100%);
+background-position: 0 100%;
+background-size: 100% 2px;
+background-repeat: repeat-x;
+}
+
+
+td, th
+{
+	padding: 10px;
+	font-family: "Consolas";
+	margin-left: 18em;
+	margin-right: 3em;
+	text-align: center;
+	color: #FFF;
+	font-size: 1.5em;
+	border:3px solid; 
+	border-color:#b7c5f0;
+}
+
+td
+{
+	font-size: 1em;
+}
+
+
+
+.active
+{
+	background-color: #88a0e7;
+	border-radius: 10px;
+}
+
+.logo
+{
+	display: inline-block;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #FFF;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px steelblue, 2px 2px 1px steelblue;
+	margin: 25;
+}
+
+.header
+{
+	background: #b7c5f0;
+	top: 0em;
+	left: 0em;
+	height: 100px;
+}
+
+.container
+{
+	margin: 0px auto;
+}
+
+
+.menu_items
+{
+	position: absolute;
+	right: 0em;
+	top: 1.8em;
+	width: 730px;
+	height: 50px;
+	display: inline;
+	text-align: center;
+	list-style-type: none;
+}
+
+.menu_item
+{
+	float: left;
+	display: inline-block;
+	margin: 1em 1.5em 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: #FFF;
+}
+
+.home_page
+{
+	color: steelblue;
+}
+
+
+.bannermain
+{
+	margin-top: 0em;
+	font-weight: 400;
+	font-size: 3em;
+	color: #b7c5f0;
+	text-align:center;
+}
+
+.banner
+{
+	font-family: "Consolas";
+	padding: 4em 2em 2em;
+	background-image: url(paw_icon.png);
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+	color: #FFF;
+	font-size: 1.5em;
+	margin-left: 8em;
+	margin-right: 8em;
+}
+
+.contents
+{
+	font-family: "Consolas";
+	padding: 1em 2em 2em;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	text-align: center;
+	color: #b7c5f0;
+	font-size: 1.5em;
+	border:3px solid #b7c5f0;
+}
+
+.main-img
+{
+	display: block;
+	border-radius: 20px;
+	margin: 10px auto 20px;
+}
+
+.img
+{
+	float: left;
+	border-radius: 10px;
+	margin-left: 4em;
+	margin-top: 1em;
+}
+
+.main-info
+{
+	font-family: "Consolas";
+	margin-left: 18em;
+	margin-right: 3em;
+	margin-top: 1em;
+	text-align: center;
+	color: #FFF;
+	font-size: 1.5em;
+}
+
+.quote
+{
+	text-align: right;
+	font-style: italic;
+	color: rgba(255,255,255,.7);
+}
+
+.header2
+{
+	font-family: "Consolas";
+	margin-top: 2em;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 400;
+	font-size: 3em;
+	color: #b7c5f0;
+}
+
+.table
+{
+	width: 900px;
+	border-top: 7px solid #b7c5f0;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 10px auto 20px;
+	margin-top: 50px;
+}
+
+.form_intro
+{
+	font-family: "Consolas";
+	margin-top: 80px;
+	font-weight: 400;
+	font-size: 2em;
+	color: #FFF;
+	text-align:center;
+}
+
+.form
+{
+	font-family: "Consolas";
+	margin-top: 70px;
+	margin-left: 500px;
+	margin-right: 100px;
+	font-weight: 400;
+	font-size: 1em;
+	color: #FFF;
+	text-align:center;
+}
+
+.results
+{
+	text-align:center;
+	margin-bottom: 50px;
+	color: #b7c5f0;
+}
+
+.results_text
+{
+	color: #b7c5f0;
+}
+
+.button
+{
+	font-family: "Consolas";
+	margin-top: 50px;
+	margin-bottom: 40px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	padding: 30px 80px;
+	font-weight: 400;
+	font-size: 3em;
+	color: #FFF;
+	background-color: #b7c5f0;
+	border-color: steelblue;
+	text-align: center;
+}
+
+.topbutton {
+width:100px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+color:#b7c5f0;
+font-family:"Consolas";
+font-size:1.2em;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
